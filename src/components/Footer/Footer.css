@@ -1,0 +1,23 @@
+footer {
+    padding: 16px 0;
+    background: rgb(104, 16, 91);
+    color: #b44e80;
+
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer__nav {
+    display: flex;
+    gap: .75rem;
+}
+

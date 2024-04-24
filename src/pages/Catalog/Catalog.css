@@ -1,0 +1,95 @@
+.card {
+  align-items: center;
+    width: 250px;
+    min-height: 390px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+  }
+  
+
+  .card:hover {
+    box-shadow: 4px 8px 16px rgba(217, 0, 255, 0.2);
+  }
+  
+
+  
+
+  .card__img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    flex: 0 0 220px; 
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .card__img > img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain; 
+    transition: 0.2s;
+  }
+  
+
+  .card__img:hover > img {
+    transform: scale(1.1);
+  }
+  
+
+ 
+  .card__price {
+    display: flex;
+    margin-bottom: 10px;
+    flex: 0 0 50%; 
+    color: #c05bb8;
+  }
+  
+
+  .card__title {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #414141;
+  }
+  
+  .card__title:hover {
+    color: #92489c;
+  }
+  
+  .card__id {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    color: #c05bb8;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #c05bb8;
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: 0.2s;
+    margin-top: auto; 
+  }
+  
+  .card__id:hover {
+    border: 1px solid #c05bb8;
+    background-color: #c05bb8;
+    color: #fff;
+  }
+
+  .prods {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    margin: 20px 0;
+  }

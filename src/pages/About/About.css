@@ -1,0 +1,10 @@
+.main-title {
+    font-size: 32px;
+    color: #b44e80;
+}
+ 
+.text-about {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #b44e80;
+}

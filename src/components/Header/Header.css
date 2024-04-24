@@ -1,0 +1,27 @@
+header {
+    padding: 16px 0;
+    border: 1px solid;
+    color: #b44e80;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.header__nav {
+    display: flex;
+    gap: .75rem;
+}
+
+.nav__link.active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #b794ad;
+}
